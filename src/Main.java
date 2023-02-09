@@ -17,11 +17,16 @@ public class Main {
         Scanner scanner=new Scanner(System.in);
         String soz= scanner.nextLine();
         Oblastar oblastar=Oblastar.valueOf(soz.toUpperCase());
-        System.out.println(oblastar);
+        switch (oblastar){
+            case BATKEN->  System.out.println(Oblastar.BATKEN);
+            case YSSYK_KOL -> System.out.println(Oblastar.YSSYK_KOL);
+            case OSH -> System.out.println(Oblastar.OSH);
+            case JALAL_ABAD -> System.out.println(Oblastar.JALAL_ABAD);
+            case NARYN -> System.out.println(Oblastar.NARYN);
+            case TALAS -> System.out.println(Oblastar.TALAS);
+            case CHUI -> System.out.println(Oblastar.CHUI);
 
-
-
-
+        }
 
 
 
